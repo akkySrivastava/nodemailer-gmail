@@ -1,0 +1,99 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 2px solid #f74b42; */
+  box-shadow: 8px 8px 8px -4px #040a0098;
+}
+
+.form__wrapper{
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  background-color: black;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.form__title{
+  display: flex;
+  color: aqua;
+}
+
+.form__title > h4{
+  font-size: 2rem;
+  font-weight: 400;
+  border-bottom: 2px solid #f74b42;
+}
+
+.form__container{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.form__containerItems{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form__containerItem{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form__containerItemName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__containerItemName > label{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.form__containerItemName > .MuiSvgIcon-root{
+  color: #f74b42;
+  font-size: xx-large;
+}
+
+.form__containerItemField{
+  display: flex;
+  width: 100%;
+}
+
+.form__containerItemField > input{
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: transparent;
+  color: white;
+  width: 100%;
+}
+
+.form__containerItemField > input:focus{
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+
+.container__composeMail{
+  display: flex;
+  color: white;
+}
